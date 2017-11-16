@@ -37,7 +37,7 @@ Build dependencies:
 
 **Python** dependencies:
 
-Lima_ is compatible with python 2 and 3 (Linux only).
+Lima_ can be compiled for python 2 and 3. The following packages must be installed, development packages with header files (include files) are mandatory.
 
 - numpy_ >= 1.1
 - sip_   <= 4.18
