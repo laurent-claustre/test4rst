@@ -37,7 +37,7 @@ Build dependencies:
 
 **Python** dependencies:
 
-Lima_ can be compiled for python 2 and 3. The following packages must be installed, development packages with header files (include files) are mandatory.
+Lima_ can be compiled for python 2 and 3. The following packages must be installed, development versions with header files (include files) are mandatory.
 
 - numpy_ >= 1.1
 - sip_   <= 4.18
@@ -55,6 +55,7 @@ Saving format dependencies:
 - libconfig_: for windows you can download the ESRF binary package `libconfig-windows`_ and install it under "c:\\program files\\"
 
 PyTango_ server dependencies:
+The LimaCCDs pytango server only works for python 2, it will be updated for python 3 soon !!
 
 - PyTango_
 - libtango_
